@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/index.css" />
+</head>
+<body>
+    <header>
+        <h1>School-info</h1>
+    </header>
+    <section>
+        <div id="localAddress">
+            <select class="optionList">
+                <option class="optionItem" value="" disabled selected>지역을 선택하세요.</option>
+                <option class="optionItem" value="B10">서울</option>
+                <option class="optionItem" value="C10">부산</option>
+                <option class="optionItem" value="D10">대구</option>
+                <option class="optionItem" value="E10">인천</option>
+                <option class="optionItem" value="F10">광주</option>
+                <option class="optionItem" value="G10">대전</option>
+                <option class="optionItem" value="H10">울산</option>
+                <option class="optionItem" value="I10">세종</option>
+                <option class="optionItem" value="J10">경기</option>
+                <option class="optionItem" value="K10">강원</option>
+                <option class="optionItem" value="M10">충북</option>
+                <option class="optionItem" value="N10">충남</option>
+                <option class="optionItem" value="P10">전북</option>
+                <option class="optionItem" value="Q10">전남</option>
+                <option class="optionItem" value="R10">경북</option>
+                <option class="optionItem" value="S10">경남</option>
+                <option class="optionItem" value="T10">제주</option>
+                <option class="optionItem" value="V10">그 외 국제학교</option>
+            </select>
+        </div>
+        <div id="search-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20" fill="none" style="margin: 1rem 1.25rem 1rem 1.25rem;">
+                <path d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z" stroke="#C4C4C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19 19L14.65 14.65" stroke="#C4C4C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <input class="school-name" type="text" name="school-name" placeholder="학교 이름을 입력하세요." />
+            <input class="search-btn" type="button" onclick="return search()" value="search" />
+        </div>
+        <div id="search-result">
+            <p></p>
+        </div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{"schoolInfo":
+	[
+        {"head":
+            [
+                {"list_total_count":1},
+                {"RESULT":
+                    {"CODE":"INFO-000","MESSAGE":"정상 처리되었습니다."}}
+            ]
+        },
+        {"row":
+            [
+                {
+                    "ATPT_OFCDC_SC_CODE":"S10",
+                    "ATPT_OFCDC_SC_NM":"경상남도교육청",
+                    "SD_SCHUL_CODE":"9091082",
+                    "SCHUL_NM":"임호중학교",
+                    "ENG_SCHUL_NM":null,
+                    "SCHUL_KND_SC_NM":"중학교",
+                    "LCTN_SC_NM":"경상남도",
+                    "JU_ORG_NM":"김해교육지원청",
+                    "FOND_SC_NM":"공립",
+                    "ORG_RDNZC":"50953 ",
+                    "ORG_RDNMA":"경상남도 김해시 내외로 117",
+                    "ORG_RDNDA":"(내동/ 임호중학교)",
+                    "ORG_TELNO":"055-334-1407",
+                    "HMPG_ADRES":"imho-m.gne.go.kr",
+                    "COEDU_SC_NM":"남여공학",
+                    "ORG_FAXNO":"055-334-1419",
+                    "HS_SC_NM":" ",
+                    "INDST_SPECL_CCCCL_EXST_YN":"N",
+                    "HS_GNRL_BUSNS_SC_NM":"해당없음",
+                    "SPCLY_PURPS_HS_ORD_NM":null,
+                    "ENE_BFE_SEHF_SC_NM":"전기",
+                    "DGHT_SC_NM":"주간",
+                    "FOND_YMD":"19951220",
+                    "FOAS_MEMRD":"19950301",
+                    "LOAD_DTM":"20230615"
+                }
+            ]
+        }
+    ]
+}
