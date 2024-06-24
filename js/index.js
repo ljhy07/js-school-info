@@ -3,10 +3,12 @@ const key = "55eadf53dac24be2803a0bec1daa6596";
 let schoolName;
 let local;
 let searchResult = document.querySelector('#search-result');
+const HIDDEN_CLASSNAME = "hidden";
 
 document.querySelector('.school-name').addEventListener('input', (event) => {
   schoolName = event.target.value;
 });
+
 document.querySelector('.optionList').addEventListener('change', (event) => {
   local = event.target.value;
 });
@@ -15,6 +17,7 @@ let resultBar = document.createElement("div");
 resultBar.classList.add("resultBar");
 
 function search() {
+    searchResult.classList.remove(HIDDEN_CLASSNAME);
     let url = `https://open.neis.go.kr/hub/schoolInfo?key=${key}&Type=json&pIndex=1&pSize=100&ATPT_OFCDC_SC_CODE=${local}&SCHUL_NM=${schoolName}`;
     jsonData(url, searchResult);
 }
