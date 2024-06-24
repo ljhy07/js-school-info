@@ -93,7 +93,8 @@ section {
 
 #search-result {
     width: 60rem;
-    height: 40rem;
+    max-height: 100rem;
+    height: auto;
     flex-shrink: 0;
 
     padding: 0.5rem;
@@ -158,6 +159,27 @@ section {
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
+}
+
+#cafeteria-button {
+    width: 12.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    text-align: center;
+    align-items: center;
+
+    margin: 0.5rem 1rem 0.5rem 1rem;
+
+    border-radius: 0.25rem;
+    background: #68C5CC;
+    border: 0;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
     line-height: normal;
 }
 
